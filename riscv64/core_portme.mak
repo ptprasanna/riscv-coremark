@@ -24,7 +24,7 @@ RISCVTOOLS=$(RISCV)
 RISCVTYPE=riscv64-unknown-elf
 # Flag: OUTFLAG
 #	Use this flag to define how to to get an executable (e.g -o)
-OUTFLAG= -o
+OUTFLAG= -o new change
 # Flag: CC
 #	Use this flag to define compiler to use
 CC = $(RISCVTOOLS)/bin/$(RISCVTYPE)-gcc
